@@ -1,0 +1,5 @@
+ssl-cert-checker:
+    build: .
+    volumes: 
+      - /home/venance/jota-cert-checker:/usr/src/app
+    net: host
